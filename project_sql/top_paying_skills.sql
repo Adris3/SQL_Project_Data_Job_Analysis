@@ -17,7 +17,7 @@ GROUP BY
     skills
 ORDER BY
     avg_salary DESC
-LIMIT 5;
+LIMIT 25;
 
 -- REMOTE WORK
 
@@ -35,7 +35,7 @@ GROUP BY
     skills
 ORDER BY
     avg_salary DESC
-LIMIT 5;
+LIMIT 25;
 
 -- TORONTO
 
@@ -53,11 +53,13 @@ GROUP BY
     skills
 ORDER BY
     avg_salary DESC
-LIMIT 5;
+LIMIT 25;
 
 -- Insight
 /*
 - While SQL and Python are in the most demand, node and mongo are the highest paid
 - In remote work Assembly is now the highest paying skill, and Rust is now in the top 5
 - In Toronto, the highest paying skill is no-sql
+- When expanding to include top 25, C, Go, C++, and Java are included for Toronto
+    - These languages are not in the top 25 for the other two tables
 */
