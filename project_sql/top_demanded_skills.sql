@@ -16,3 +16,8 @@ GROUP BY
 ORDER BY
     demand_count DESC
 LIMIT 5;
+
+-- INSIGHT
+/*
+SQL and Python are topping the list making them
+*/
