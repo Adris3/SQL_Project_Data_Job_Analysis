@@ -1,7 +1,7 @@
 /*
 What are the highest paying skills for data engineers?
 - Repeat process for most in demand skills
-- This time, sort by salary
+- This time, sort by avg salary of each skill
 */
 
 SELECT
