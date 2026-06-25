@@ -1,13 +1,20 @@
-
+/*
+Question: What skills are required for the top-paying data engineer jobs?
+- Use the top 10 highest-paying Data Enineer jobs from the first query 
+- Add the specific skills required for these roles
+- Shows a detailed look at which skills are required for each high-paying job, helping 
+  job seekers better understand what to practice  
+- Conduct this for both remote jobs and jobs located in Toronto, ON, Canada
+*/
 
 -- Top paying remote jobs
+
+
+
 SELECT
     job_id,
     job_title,
-    job_location,
-    job_schedule_type,
     salary_year_avg,
-    job_posted_date,
     name AS company_name
 FROM
     job_postings_fact
