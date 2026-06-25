@@ -27,7 +27,8 @@ WITH top_paying_jobs AS (
     LIMIT 10
 )
 
-SELECT * FROM top_paying_jobs;
+SELECT * FROM top_paying_jobs
+INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id;
 
 
 
