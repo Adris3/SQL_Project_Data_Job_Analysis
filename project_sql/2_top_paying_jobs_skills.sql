@@ -7,7 +7,7 @@ Question: What skills are required for the top-paying data engineer jobs?
 - Conduct this for both remote jobs and jobs located in Toronto, ON, Canada
 */
 
--- Top paying remote jobs
+-- Top paying remote skills
 
 WITH top_paying_jobs AS (
     SELECT
@@ -37,7 +37,7 @@ ORDER BY
         salary_year_avg DESC;
 -- ORDER BY is repeated in case the query gives unordered result
 
--- Top paying jobs in Toronto, ON, Canada
+-- Top paying skills in Toronto, ON, Canada
 
 WITH top_paying_jobs AS (
     SELECT
