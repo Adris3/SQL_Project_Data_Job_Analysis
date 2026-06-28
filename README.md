@@ -78,6 +78,12 @@ ORDER BY
 LIMIT 10;
 ```
 
+Findings
+- The top 3 highest paying remote jobs were all labelled "Data Engineer"
+- The top 3 highest paying jobs in Toronto had titles like "Director of Engineering" meaning they are highly technical senior roles
+    - This makes sense because a senior role is higher paying
+
+
 ### 2. What skills are required for these top-paying jobs?
 I joined the skills dataset wtih the job postings data set to see which skills are highly valued by employers. 
 
